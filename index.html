@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<title>MboraSystem-Admin</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+	<h1>Data de início e fim em um intervalo de 30 dias.</h1>
+	<form>
+	  <div class="mb-3">
+	    <label for="inicio" class="form-label">Início</label>
+	    <input type="date" class="form-control" id="inicio" onchange="getDataFinal()">
+	  </div>
+	  <div class="mb-3">
+	    <label for="fim" class="form-label">Fim</label>
+	    <input type="date" class="form-control" id="fim" readonly>
+	  </div>
+	</form>
+</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+
+		var inicio = window.document.getElementById('inicio');
+		var fim = window.document.getElementById('fim');
+
+	  function diasNoMes(mes, ano) {
+	    var data = new Date(ano, mes, 0);
+	    return parseInt(data.getDate());
+	  }
+
+	function getDataFinal() {
+			
+	let diaFinal, dataFinal;
+    let data = inicio.value;
+
+    const diaT = parseInt(data.split('-', 3)[2]); 
+    const mesT = parseInt(data.split('-', 3)[1]); 
+    const anoT = parseInt(data.split('-', 3)[0]);
+
+    const mes = (mesT == 12 ? '' : mesT) + 1;
+    const anoFinal = mesT == 12 ? anoT + 1 : anoT;
+    const mesFinal = (mes < '10' ? '0' : '') + mes;
+    const dia = 30 + diaT - diasNoMes(mesT, anoT);
+
+
+    if (dia > diasNoMes(mesFinal, anoFinal)) {
+      diaFinal = dia - diasNoMes(mesFinal, anoFinal);
+      dataFinal =
+        anoFinal +
+        '-' +
+        ((parseInt(mesFinal) + 1 < '10' ? '0' : '') +
+          (parseInt(mesFinal) + 1)) +
+        '-' +
+        ((diaFinal < '10' ? '0' : '') + diaFinal);
+    } else {
+      diaFinal =
+        (dia < '10' ? '0' : '') + dia == '00'
+          ? '31'
+          : (dia < '10' ? '0' : '') + dia;
+
+      if (diaT == 1 && diasNoMes(mesT, anoT) == 31) {
+        dataFinal =
+          anoFinal +
+          '-' +
+          ((parseInt(mesFinal) - 1 < '10' ? '0' : '') +
+            (parseInt(mesFinal) - 1)) +
+          '-' +
+          diaFinal;
+      } else {
+        dataFinal = anoFinal + '-' + mesFinal + '-' + diaFinal;
+      }
+
+    }
+    fim.setAttribute('value', dataFinal);
+}
+</script>
+
+</body>
+
+</html>
