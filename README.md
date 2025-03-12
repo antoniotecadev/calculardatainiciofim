@@ -8,7 +8,12 @@ Você pode acessar a versão hospedada do projeto no GitHub Pages: [Calculadora 
 
 ### Screenshots
 
-![App Screenshot](https://github.com/antoniotecadev/calculardatainiciofim/screenshot-calculardatainiciofim-desktop.png)
+## Screenshots
+
+<div align="left">
+  <img src="./screenshot-calculardatainiciofim-desktop.png" alt="Desktop Screenshot" width="76%" />
+  <img src="./screenshot-calculardatainiciofim-mobile.png" alt="Mobile Screenshot" width="20%" />
+</div>
 
 ## Funcionalidades
 
