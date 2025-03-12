@@ -1,10 +1,10 @@
 # 🖩 Calculadora de Data de Início e Fim
 
-Este projeto é uma simples calculadora de datas que permite ao usuário inserir uma data de início e automaticamente calcular a data de fim após um intervalo de 30 dias. O projeto foi desenvolvido utilizando HTML, CSS (com Bootstrap) e JavaScript.
+Este projecto é uma simples calculadora de datas que permite ao usuário inserir uma data de início e automaticamente calcular a data de fim após um intervalo de 30 dias. O projecto foi desenvolvido utilizando HTML, CSS (com Bootstrap) e JavaScript.
 
 ## Demonstração
 
-Você pode acessar a versão hospedada do projeto no GitHub Pages: [Calculadora de Data de Início e Fim](https://antoniotecadev.github.io/calculardatainiciofim/)
+Você pode acessar a versão hospedada do projecto no GitHub Pages: [Calculadora de Data de Início e Fim](https://antoniotecadev.github.io/calculardatainiciofim/)
 
 ### Screenshots
 
@@ -21,7 +21,7 @@ Você pode acessar a versão hospedada do projeto no GitHub Pages: [Calculadora 
 
 ## Como Usar
 
-1. **Acesse a Página**: Abra o link do projeto hospedado no GitHub Pages.
+1. **Acesse a Página**: Abra o link do projecto hospedado no GitHub Pages.
 2. **Insira a Data de Início**: No campo de data de início, selecione ou insira a data desejada.
 3. **Veja a Data de Fim**: A data de fim será automaticamente calculada e exibida no campo correspondente.
 
@@ -31,9 +31,9 @@ Você pode acessar a versão hospedada do projeto no GitHub Pages: [Calculadora 
 - **CSS (Bootstrap)**: Estilização e responsividade.
 - **JavaScript**: Lógica de cálculo das datas.
 
-## Estrutura do Projeto
+## Estrutura do Projecto
 
-O projeto consiste em um único arquivo HTML que contém toda a estrutura, estilos e scripts necessários para o funcionamento da calculadora de datas.
+O projecto consiste em um único arquivo HTML que contém toda a estrutura, estilos e scripts necessários para o funcionamento da calculadora de datas.
 
 ```plaintext
 calculardatainiciofim/
