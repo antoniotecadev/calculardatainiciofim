@@ -1,4 +1,4 @@
-# Calculadora de Data de Início e Fim
+# 🖩 Calculadora de Data de Início e Fim
 
 Este projeto é uma simples calculadora de datas que permite ao usuário inserir uma data de início e automaticamente calcular a data de fim após um intervalo de 30 dias. O projeto foi desenvolvido utilizando HTML, CSS (com Bootstrap) e JavaScript.
 
