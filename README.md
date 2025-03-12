@@ -58,7 +58,7 @@ Este projecto está licenciado sob [![MIT License](https://img.shields.io/badge/
 
 ## Autor
 
-- **António Teca**- [GitHub](https://github.com/antoniotecadev)
+- **António Teca** [GitHub](https://github.com/antoniotecadev)
 
 ---
 
