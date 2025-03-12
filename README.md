@@ -6,6 +6,10 @@ Este projeto é uma simples calculadora de datas que permite ao usuário inserir
 
 Você pode acessar a versão hospedada do projeto no GitHub Pages: [Calculadora de Data de Início e Fim](https://antoniotecadev.github.io/calculardatainiciofim/)
 
+### Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 ## Funcionalidades
 
 - **Cálculo Automático de Data de Fim**: Ao inserir uma data de início, o sistema automaticamente calcula e exibe a data de fim após 30 dias.
@@ -34,6 +38,13 @@ calculardatainiciofim/
 ├── index.html          # Arquivo principal contendo a estrutura HTML, estilos e scripts
 └── logotipo-yoga-original.png  # Imagem utilizada na página
 ```
+
+## Usado Por
+
+Este projecto é usado pelas seguintes empresas:
+
+- YOGA - TECNOLOGIA, COMÉRCIO E SERVIÇO LDA
+
 ## Licença
 
 Este projecto está licenciado sob [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/). Veja o ficheiro [LICENSE](LICENSE) para mais detalhes.
@@ -50,3 +61,7 @@ Este projecto está licenciado sob [![MIT License](https://img.shields.io/badge/
 
 - Agradeço ao [Bootstrap](https://getbootstrap.com/) por fornecer uma biblioteca de CSS tão poderosa e fácil de usar.
 - Agradeço à comunidade de desenvolvedores por todo o suporte e conhecimento compartilhado.
+
+## Feedback
+
+Se você tiver algum comentário, entre em contacto antonioteca@hotmail.com
