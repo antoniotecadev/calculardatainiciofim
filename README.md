@@ -38,6 +38,8 @@ O projeto consiste em um único arquivo HTML que contém toda a estrutura, estil
 ```plaintext
 calculardatainiciofim/
 │
+├── LICENSE             # MIT License
+├── README.md           # Descriçào do projecto
 ├── index.html          # Arquivo principal contendo a estrutura HTML, estilos e scripts
 └── logotipo-yoga-original.png  # Imagem utilizada na página
 ```
