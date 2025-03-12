@@ -9,8 +9,8 @@ Você pode acessar a versão hospedada do projeto no GitHub Pages: [Calculadora 
 ### Screenshots
 
 <div align="left">
-  <img src="./screenshot-calculardatainiciofim-desktop.png" alt="Desktop Screenshot" width="76%" />
-  <img src="./screenshot-calculardatainiciofim-mobile.png" alt="Mobile Screenshot" width="20%" />
+  <img src="./screenshot-desktop-calculardatainiciofim.png" alt="Desktop Screenshot" width="76%" />
+  <img src="./screenshot-mobile-calculardatainiciofim.png" alt="Mobile Screenshot" width="20%" />
 </div>
 
 ## Funcionalidades
