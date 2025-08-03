@@ -6,14 +6,14 @@ This project is a simple date calculator that allows the user to enter a start d
 
 You can access the hosted version of the project on GitHub Pages: [Start and End Date Calculator](https://antoniotecadev.github.io/calculardatainiciofim/)
 
-### Screenshots
+### 🖼️ Screenshots
 
 <div align="left">
   <img src="./screenshot-desktop-calculardatainiciofim.png" alt="Desktop Screenshot" width="76%" />
   <img src="./screenshot-mobile-calculardatainiciofim.png" alt="Mobile Screenshot" width="20%" />
 </div>
 
-## Features
+## 📋 Features
 
 - **Automatic End Date Calculation**: When you enter a start date, the system automatically calculates and displays the end date after 30 days.
 - **Simple and Intuitive Interface**: The interface was developed with Bootstrap to ensure a pleasant and responsive user experience.
@@ -25,7 +25,7 @@ You can access the hosted version of the project on GitHub Pages: [Start and End
 2. **Enter Start Date**: In the start date field, select or enter the desired date.
 3. **View End Date**: The end date will be automatically calculated and displayed in the corresponding field.
 
-## Technologies Used
+## 🧰 Technologies Used
 
 - **HTML**: Page structure.
 - **CSS (Bootstrap)**: Styling and responsiveness.
@@ -56,7 +56,7 @@ This project is licensed under [![MIT License](https://img.shields.io/badge/Lice
 
 ---
 
-## Author
+## 🧑‍💻 Author
 
 - **António Teca** [GitHub](https://github.com/antoniotecadev)
 
