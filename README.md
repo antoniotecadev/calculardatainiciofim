@@ -1,10 +1,10 @@
-# 🖩 Calculadora de Data de Início e Fim
+# 🖩 Start and End Date Calculator
 
-Este projecto é uma simples calculadora de datas que permite ao usuário inserir uma data de início e automaticamente calcular a data de fim após um intervalo de 30 dias. O projecto foi desenvolvido utilizando HTML, CSS (com Bootstrap) e JavaScript.
+This project is a simple date calculator that allows the user to enter a start date and automatically calculate the end date after a 30-day interval. The project was developed using HTML, CSS (with Bootstrap), and JavaScript.
 
-## Demonstração
+## Demonstration
 
-Você pode acessar a versão hospedada do projecto no GitHub Pages: [Calculadora de Data de Início e Fim](https://antoniotecadev.github.io/calculardatainiciofim/)
+You can access the hosted version of the project on GitHub Pages: [Start and End Date Calculator](https://antoniotecadev.github.io/calculardatainiciofim/)
 
 ### Screenshots
 
@@ -13,27 +13,27 @@ Você pode acessar a versão hospedada do projecto no GitHub Pages: [Calculadora
   <img src="./screenshot-mobile-calculardatainiciofim.png" alt="Mobile Screenshot" width="20%" />
 </div>
 
-## Funcionalidades
+## Features
 
-- **Cálculo Automático de Data de Fim**: Ao inserir uma data de início, o sistema automaticamente calcula e exibe a data de fim após 30 dias.
-- **Interface Simples e Intuitiva**: A interface foi desenvolvida com Bootstrap para garantir uma experiência de usuário agradável e responsiva.
-- **Validação de Datas**: O sistema garante que a data de fim seja calculada corretamente, considerando os diferentes números de dias em cada mês.
+- **Automatic End Date Calculation**: When you enter a start date, the system automatically calculates and displays the end date after 30 days.
+- **Simple and Intuitive Interface**: The interface was developed with Bootstrap to ensure a pleasant and responsive user experience.
+- **Date Validation**: The system ensures that the end date is calculated correctly, considering the different number of days in each month.
 
-## Como Usar
+## How to Use
 
-1. **Acesse a Página**: Abra o link do projecto hospedado no GitHub Pages.
-2. **Insira a Data de Início**: No campo de data de início, selecione ou insira a data desejada.
-3. **Veja a Data de Fim**: A data de fim será automaticamente calculada e exibida no campo correspondente.
+1. **Access Page**: Open the project link hosted on GitHub Pages.
+2. **Enter Start Date**: In the start date field, select or enter the desired date.
+3. **View End Date**: The end date will be automatically calculated and displayed in the corresponding field.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **HTML**: Estrutura da página.
-- **CSS (Bootstrap)**: Estilização e responsividade.
-- **JavaScript**: Lógica de cálculo das datas.
+- **HTML**: Page structure.
+- **CSS (Bootstrap)**: Styling and responsiveness.
+- **JavaScript**: Date calculation logic.
+  
+## 📂 Project Structure
 
-## Estrutura do Projecto
-
-O projecto consiste em um único arquivo HTML que contém toda a estrutura, estilos e scripts necessários para o funcionamento da calculadora de datas.
+The project consists of a single HTML file that contains all the structure, styles, and scripts necessary for the date calculator to function.
 
 ```plaintext
 calculardatainiciofim/
@@ -44,29 +44,20 @@ calculardatainiciofim/
 └── logotipo-yoga-original.png  # Imagem utilizada na página
 ```
 
-## Usado Por
+## 🏢 Used By
 
-Este projecto é usado pelas seguintes empresas:
+This project is used by the following companies:
 
 - YOGA - TECNOLOGIA, COMÉRCIO E SERVIÇO LDA
 
-## Licença
+## 📜 License
 
-Este projecto está licenciado sob [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/). Veja o ficheiro [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/). See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Autor
+## Author
 
 - **António Teca** [GitHub](https://github.com/antoniotecadev)
 
 ---
-
-## Agradecimentos
-
-- Agradeço ao [Bootstrap](https://getbootstrap.com/) por fornecer uma biblioteca de CSS tão poderosa e fácil de usar.
-- Agradeço à comunidade de desenvolvedores por todo o suporte e conhecimento compartilhado.
-
-## Feedback
-
-Se você tiver algum comentário, entre em contacto antonioteca@hotmail.com
